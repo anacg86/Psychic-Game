@@ -1,0 +1,49 @@
+h1 {
+    text-align: center;
+}
+h2 {
+    
+}
+p{
+    
+}
+#center{
+    
+
+}
+#left{
+margin: 20px;
+padding: 20px;
+background: grey;
+width: 100%;
+}
+#right {
+margin: 20px;
+padding: 20px;
+background: grey;
+width: 100%;
+}
+#winsText{
+color: lightgreen;
+}
+#lossesText{
+color: red;
+}
+#guessesLeftText{
+color:orangered;
+}
+#guessSoFarText{
+color: lightblue;
+}
+body {
+    background-color: black;
+}
+h1, h2, p {
+text-align: center;
+}
+h1, h2, p, .winsText, .lossesText, .guessesLeftText, .guessSoFarText {
+    color: white;
+}
+.psych {
+   justify-content: center;
+}
