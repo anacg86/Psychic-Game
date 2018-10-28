@@ -1,23 +1,8 @@
 h1 {
     text-align: center;
 }
-h2 {
-    
-}
-p{
-    
-}
-#center{
-    
 
-}
-#left{
-margin: 20px;
-padding: 20px;
-background: grey;
-width: 100%;
-}
-#right {
+#right, #left{
 margin: 20px;
 padding: 20px;
 background: grey;
@@ -44,6 +29,7 @@ text-align: center;
 h1, h2, p, .winsText, .lossesText, .guessesLeftText, .guessSoFarText {
     color: white;
 }
-.psych {
-   justify-content: center;
+#psych {
+    position: relative;
+    left: 550px;
 }
